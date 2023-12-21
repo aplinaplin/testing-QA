@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231222 00:00:29.415" rpa="false" schemaversion="4">
+<suite id="s1" name="Test-Suite-1" source="D:\GitHub\testing-QA-1\UAS\tugas-uas-3\project-demo\test-suite-1.robot">
+<test id="s1-t1" name="Buka Browser" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demoqa.com/text-box</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231222 00:00:30.154" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
+<status status="PASS" starttime="20231222 00:00:30.153" endtime="20231222 00:00:42.298"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231222 00:00:42.310" endtime="20231222 00:00:42.792"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=userName</arg>
+<arg>text=aplin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231222 00:00:42.794" level="INFO">Typing text 'aplin' into text field 'id=userName'.</msg>
+<status status="PASS" starttime="20231222 00:00:42.792" endtime="20231222 00:00:43.161"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=userEmail</arg>
+<arg>text=alvinamirullah28@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231222 00:00:43.557" level="INFO">Typing text 'alvinamirullah28@gmail.com' into text field 'id=userEmail'.</msg>
+<status status="PASS" starttime="20231222 00:00:43.556" endtime="20231222 00:00:44.296"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=currentAddress</arg>
+<arg>text=Halo, kolom ini tidak diisi alamat tapi ini adalah testing website untuk tugas UAS mata kuliah Testing QA Universitas Pamulang</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231222 00:00:44.325" level="INFO">Typing text 'Halo, kolom ini tidak diisi alamat tapi ini adalah testing website untuk tugas UAS mata kuliah Testing QA Universitas Pamulang' into text field 'id=currentAddress'.</msg>
+<status status="PASS" starttime="20231222 00:00:44.324" endtime="20231222 00:00:45.650"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231222 00:00:50.811" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20231222 00:00:45.811" endtime="20231222 00:00:50.811"/>
+</kw>
+<status status="PASS" starttime="20231222 00:00:30.151" endtime="20231222 00:00:50.813"/>
+</test>
+<status status="PASS" starttime="20231222 00:00:29.418" endtime="20231222 00:00:50.829"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test-Suite-1">Test-Suite-1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231221 22:46:00.930" rpa="false" schemaversion="4">
+<suite id="s1" name="testing-QA-1" source="D:\GitHub\testing-QA-1">
+<suite id="s1-s1" name="UAS" source="D:\GitHub\testing-QA-1\UAS">
+<suite id="s1-s1-s1" name="Tugas-Uas-3" source="D:\GitHub\testing-QA-1\UAS\tugas-uas-3">
+<suite id="s1-s1-s1-s1" name="Project-Demo" source="D:\GitHub\testing-QA-1\UAS\tugas-uas-3\project-demo">
+<suite id="s1-s1-s1-s1-s1" name="Test-Suite-1" source="D:\GitHub\testing-QA-1\UAS\tugas-uas-3\project-demo\test-suite-1.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="Buka Browser" line="17">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>www.google.com chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231221 22:46:01.821" level="INFO">Opening browser 'firefox' to base url 'www.google.com chrome'.</msg>
+<msg timestamp="20231221 22:46:14.750" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20231221 22:46:14.754" level="FAIL">InvalidArgumentException: Message: Malformed URL: URL constructor: www.google.com chrome is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:380:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:851:11
+</msg>
+<status status="FAIL" starttime="20231221 22:46:01.814" endtime="20231221 22:46:15.197"/>
+</kw>
+<status status="FAIL" starttime="20231221 22:46:01.808" endtime="20231221 22:46:15.209">InvalidArgumentException: Message: Malformed URL: URL constructor: www.google.com chrome is not a valid URL.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+InvalidArgumentError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:380:5
+GeckoDriver.prototype.navigateTo@chrome://remote/content/marionette/driver.sys.mjs:851:11
+</status>
+</test>
+<status status="FAIL" starttime="20231221 22:46:01.790" endtime="20231221 22:46:15.505"/>
+</suite>
+<status status="FAIL" starttime="20231221 22:46:01.061" endtime="20231221 22:46:15.558"/>
+</suite>
+<status status="FAIL" starttime="20231221 22:46:01.039" endtime="20231221 22:46:15.718"/>
+</suite>
+<status status="FAIL" starttime="20231221 22:46:01.018" endtime="20231221 22:46:15.729"/>
+</suite>
+<status status="FAIL" starttime="20231221 22:46:00.946" endtime="20231221 22:46:15.756"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testing-QA-1">testing-QA-1</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="UAS">testing-QA-1.UAS</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tugas-Uas-3">testing-QA-1.UAS.Tugas-Uas-3</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="Project-Demo">testing-QA-1.UAS.Tugas-Uas-3.Project-Demo</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Test-Suite-1">testing-QA-1.UAS.Tugas-Uas-3.Project-Demo.Test-Suite-1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
