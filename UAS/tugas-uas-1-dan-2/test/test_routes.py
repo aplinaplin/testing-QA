@@ -18,7 +18,7 @@ def test_product_api(client):
 def test_post_cart(client):
     url = f"/api/cart"
     data = {
-        "coupon_code": "dewa irtzadhany",
+        "coupon_code": "alvin amirulloh",
         "shipping_fee": 3,
         "cart_items": [
             {"product_id": 3, "qty": 3}
